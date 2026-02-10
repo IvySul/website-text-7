@@ -1,7 +1,27 @@
-.frame {
+body {
+  margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 10px;
-  height: 10px;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.container {
+  display: flex;            
+  align-items: center;     
+}
+
+.picture img {
+  width: 500px;
+  height: auto;
+}
+
+.arrow {
+  font-size: 80px;
+  text-decoration: none;
+  color: darkblue;
+  padding: 0 200px;         
+  cursor: pointer;
+  user-select: none;
 }
